@@ -37,7 +37,7 @@ const Work = () => {
 
   return (
     <section
-      className="flex flex-col justify-center items-center gap-10 bg-black"
+      className="flex flex-col justify-center items-center gap-10"
       id="services"
     >
       <h1 className="relative  text-7xl md:text-8xl ">Services</h1>
