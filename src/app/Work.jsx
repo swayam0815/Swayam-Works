@@ -41,7 +41,7 @@ const Work = () => {
       id="services"
     >
       <h1 className="relative  text-7xl md:text-8xl my-7">Services</h1>
-      <div className="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center w-3/4">
+      <div className="flex gap-4 md:gap-8 md:justify-center w-3/4">
         {whyUs.map((item, index) => (
           <Card
             key={index}
