@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <section className="flex-col" id="contact">
       <h1 className="my-4 text-5xl md:text-6xl text-center">
-        Let's talk about <Shiny>your</Shiny> next <Shiny>Project</Shiny>!
+        Let&apos;s talk about <Shiny>your</Shiny> next <Shiny>Project</Shiny>!
       </h1>
       <p className="my-4 text-lg leading-relaxed lg:text-2xl text-center">
         Ready to create something amazing together?

@@ -40,7 +40,7 @@ const Work = () => {
       className="flex flex-col md:gap-10 p-2 md:p-8 flex-wrap"
       id="services"
     >
-      <h1 className="relative my-1 text-7xl md:text-8xl">Services</h1>
+      <h1 className="relative  text-7xl md:text-8xl my-7">Services</h1>
       <div className="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center w-3/4">
         {whyUs.map((item, index) => (
           <Card
