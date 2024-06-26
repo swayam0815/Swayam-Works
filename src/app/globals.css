@@ -24,9 +24,6 @@ html, body{
 
 section{
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   scroll-snap-align: center;
 }
 
