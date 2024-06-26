@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 5s;
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;}
+
+section{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,8 +54,37 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: black;
 }
+
+::selection {
+  color: white;
+  background: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffc800;
+  border-radius: 10%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc800;
+}
+
