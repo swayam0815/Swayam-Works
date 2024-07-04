@@ -1,46 +1,35 @@
-"use client";
+import React from "react";
 import { motion } from "framer-motion";
 import Card from "./Card";
 
 const Work = () => {
   const whyUs = [
     {
-      headline: "Website Design & Development",
+      headline: "Professional Website Design & Development",
       tagline:
-        "We design and develop beautiful websites that are responsive and mobile-friendly.",
+        "We specialize in creating responsive, user-friendly websites tailored to your business needs.",
     },
     {
-      headline: "Website Maintenance",
+      headline: "Comprehensive Website Maintenance",
       tagline:
-        "We offer website maintenance services to keep your website up-to-date.",
+        "Keep your website up-to-date with our reliable maintenance services.",
     },
     {
-      headline: "Brand Identity & Logo Design",
+      headline: "Creative Promotional Services",
       tagline:
-        "We create unique and memorable brand identities that set you apart from the competition.",
-    },
-    // another section about flyer and social media post design
-    {
-      headline: "Promotional Services",
-      tagline:
-        "We design flyers and social media posts to promote your business.",
+        "Boost your brand with eye-catching flyers and engaging social media posts.",
     },
   ];
 
-  // Array of colors to assign dynamically to each div
   const colors = [
     "border-purple-400 text-purple-400 bg-purple-400",
     "border-blue-400 text-blue-400 bg-blue-400",
     "border-emerald-400 text-emerald-400 bg-emerald-400",
-    "border-yellow-400 text-yellow-400 bg-yellow-400",
   ];
 
   return (
-    <section
-      className="flex flex-col justify-center items-center gap-10"
-      id="services"
-    >
-      <h1 className="relative  text-7xl md:text-8xl ">Services</h1>
+    <section className="flex flex-col justify-center items-center gap-8" id="services">
+      <h1 className="relative text-6xl md:text-8xl">Services</h1>
       <div className="flex flex-col lg:flex-row gap-4 md:gap-8 md:justify-center w-3/4">
         {whyUs.map((item, index) => (
           <Card

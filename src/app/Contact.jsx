@@ -54,12 +54,12 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <section className="flex-col" id="contact">
-      <h1 className="my-4 text-5xl md:text-6xl text-center">
-        Let&apos;s talk about <Shiny>your</Shiny> next <Shiny>Project</Shiny>!
+    <section className="flex-col flex items-center justify-center" id="contact">
+      <h1 className="my-4 text-4xl md:text-5xl text-center">
+        Ready to create something <Shiny>amazing</Shiny> together?
       </h1>
       <p className="my-4 text-lg leading-relaxed lg:text-2xl text-center">
-        Ready to create something amazing together?
+        Let&apos;s talk about <Shiny>your</Shiny> next <Shiny>website</Shiny>!
       </p>
       <form
         onSubmit={sendForm}
@@ -73,7 +73,7 @@ const Contact = () => {
           <div id="name w-full">
             <input
               className={`w-full rounded-lg border-4 placeholder-slate-500 bg-amber-100 p-2 text-black ${
-                errors.name ? "border-red-500" : "border-orange-500"
+                errors.name ? "border-red-500" : "border-yellow-500"
               } transition-all focus:border-4 focus:border-red-400 focus:outline-none`}
               name="name"
               placeholder="Name"
@@ -86,7 +86,7 @@ const Contact = () => {
           <div id="email" className="w-full">
             <input
               className={`w-full rounded-lg border-4 bg-amber-100 p-2 placeholder-slate-500 text-black ${
-                errors.email ? "border-red-500" : "border-orange-500"
+                errors.email ? "border-red-500" : "border-yellow-500"
               } transition-all focus:border-4 focus:border-red-400 focus:outline-none`}
               name="email"
               placeholder="Email"
@@ -100,7 +100,7 @@ const Contact = () => {
         </div>
         <div className="flex w-3/4 flex-col lg:w-1/2">
           <textarea
-            className="placeholder-slate-500 rounded-lg border-4 border-orange-500 bg-amber-100 p-2 text-black transition-all focus:border-4 focus:border-red-400 focus:outline-none"
+            className="placeholder-slate-500 rounded-lg border-4 border-yellow-500 bg-amber-100 p-2 text-black transition-all focus:border-4 focus:border-red-400 focus:outline-none"
             name="message"
             placeholder="Tell us about your project!"
             rows="5"
@@ -113,7 +113,7 @@ const Contact = () => {
           className="flex w-1/2 justify-center lg:justify-end"
         >
           <div id="sbtn" className="flex w-3/4 items-end lg:w-1/5">
-            <BTN text={result}/>
+            <BTN text={result} />
           </div>
         </div>
       </form>

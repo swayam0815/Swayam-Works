@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      clipPath: {
+        'circle': 'polygon(10% 29%, 50% 6%, 49% 91%, 93% 37%, 82% 13%, 25% 68%, 92% 73%, 26% 9%, 14% 47%, 55% 56%, 73% 43%, 37% 39%, 69% 26%, 66% 75%, 31% 85%, 11% 64%, 92% 55%)',
+        
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -1,3 +1,5 @@
+import Shiny from "./Shiny";
+
 const About = () => {
   const about = [
     {
@@ -28,7 +30,7 @@ const About = () => {
               key={index}
             >
               <h2 className="mt-4 mb-2 text-4xl md:text-5xl text-center">
-                {point.heading}
+<Shiny>{point.heading}</Shiny>
               </h2>
               <p className="text-justify hidden md:block ">{point.line}</p>
               <p className="block md:hidden text-justify ">{point.mLine}</p>
