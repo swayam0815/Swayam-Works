@@ -72,7 +72,7 @@ const Contact = () => {
         >
           <div id="name w-full">
             <input
-              className={`w-full rounded-lg border-4 placeholder-slate-500 bg-amber-100 p-2 text-black ${
+              className={`w-full rounded-lg border-4 placeholder-slate-500 bg-amber-100 p-2 text-white ${
                 errors.name ? "border-red-500" : "border-yellow-500"
               } transition-all focus:border-4 focus:border-red-400 focus:outline-none`}
               name="name"
@@ -85,7 +85,7 @@ const Contact = () => {
 
           <div id="email" className="w-full">
             <input
-              className={`w-full rounded-lg border-4 bg-amber-100 p-2 placeholder-slate-500 text-black ${
+              className={`w-full rounded-lg border-4 bg-amber-100 p-2 placeholder-slate-500 text-white ${
                 errors.email ? "border-red-500" : "border-yellow-500"
               } transition-all focus:border-4 focus:border-red-400 focus:outline-none`}
               name="email"
@@ -100,7 +100,7 @@ const Contact = () => {
         </div>
         <div className="flex w-3/4 flex-col lg:w-1/2">
           <textarea
-            className="placeholder-slate-500 rounded-lg border-4 border-yellow-500 bg-amber-100 p-2 text-black transition-all focus:border-4 focus:border-red-400 focus:outline-none"
+            className="placeholder-slate-500 rounded-lg border-4 border-yellow-500 bg-amber-100 p-2 text-white transition-all focus:border-4 focus:border-red-400 focus:outline-none"
             name="message"
             placeholder="Tell us about your project!"
             rows="5"

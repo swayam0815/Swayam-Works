@@ -17,7 +17,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        'custom': '0px 5px 0px 0px black, 0px 6px 0px 0px yellow',
+        'custom': '0px 5px 0px 0px white, 0px 6px 0px 0px yellow',
       },
       animation: {
         blob: "blob 7s infinite"
