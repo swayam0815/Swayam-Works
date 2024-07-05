@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import Shiny from "./Shiny";
 import CBTN from "./CBTN";
 import { useState, useEffect } from "react";
