@@ -7,8 +7,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Swayam Works",
-  description: "Swayam Works is a web design and development studio.",
+  title: "Sway Works",
+  description: "Sway Works is a web design and development studio.",
 };
 
 export default function RootLayout({ children }) {
