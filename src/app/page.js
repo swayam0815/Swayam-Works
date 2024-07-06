@@ -1,5 +1,5 @@
 import Hero from './Hero';
-import About from './About';
+import About from './Components/About';
 import Blobs from './Blobs';
 import Contact from './Contact';
 import Nav from './Nav';

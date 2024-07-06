@@ -1,4 +1,4 @@
-import Shiny from "./Shiny";
+import Shiny from "../Shiny";
 
 const About = () => {
   const about = [

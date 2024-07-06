@@ -12,7 +12,7 @@ const Nav = () => {
     }}
     >
       <div
-        className="m-6 text-2xl flex items-center justify-center w-min  bg-white gap-5 p-2 rounded-full px-4 border-2 border-yellow-500"
+        className="m-6 text-2xl flex items-center justify-center w-min  bg-white gap-5 p-2 rounded-full px-4 border-2 border-yellow-400"
       >
         <Link href="/#hero">Home</Link>
         <Link href="/#about">About</Link>

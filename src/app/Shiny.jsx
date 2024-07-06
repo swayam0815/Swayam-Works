@@ -16,7 +16,7 @@ export default function Shiny({ children }) {
         mass: 2,
       }}
       id="linear-mask"
-      className="text-yellow-500"
+      className="text-yellow-400"
     >
       {children}
     </motion.span>
